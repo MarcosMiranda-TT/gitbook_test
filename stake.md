@@ -100,5 +100,5 @@ Yes, you can stake on multiple loans at once and take different position sizes a
 
 ### How are loans approved?
 
-Loans are approved by the TrueFi lending pool based on TRU staked on the loans. To learn more click [here](lending-deposit-assets.md#how-does-the-current-truefi-lending-pool-lend-or-approve-loan-applications). 
+Loans are approved by the TrueFi lending pool based on TRU staked on the loans. To learn more click [here](pool.md#how-does-the-current-truefi-lending-pool-lend-or-approve-loan-applications). 
 
