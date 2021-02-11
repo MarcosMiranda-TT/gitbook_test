@@ -2,6 +2,8 @@
 
 ### How do I lend with TrueFi? <a id="what-are-lending-pools"></a>
 
+{% embed url="https://www.youtube.com/watch?v=VV8QUU9PCFQ&feature=youtu.be" %}
+
 Lenders can lend their stablecoins to the TrueFi lending pools that use predefined strategies to further creditworthy borrowers. Any stablecoins that are not being actively loaned out may be used to provide liquidity in audited, stable, and high yield DeFi protocols \(such as Aave or Curve.fi\).
 
 Initially, TrueFi will have a single lending pool created by TrustToken, Inc.. This pool will act as a pilot for future pools, and will only lend to a whitelist of trusted borrowers, and any excess capital that is not actively loaned out may be deployed in a DeFi protocol.
