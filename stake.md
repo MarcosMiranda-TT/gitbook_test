@@ -2,6 +2,8 @@
 
 ### How can I stake TRU on loan applications?  <a id="how-can-i-stake-tru-on-loan-applications"></a>
 
+{% embed url="https://www.youtube.com/watch?v=c8AonLVYrnI&feature=youtu.be" %}
+
 You can either stake YES or NO with your TRU on a loan application. Staking YES means you are predicting that the loan is not likely to default, and staking NO means you are predicting that the loan is likely to default. You can stake any number of TRU on each loan application.
 
 For staking on loan applications created by borrowers, you need to have TrueFi tokens \(TRU\) in the Metamask wallet you have connected to the TrueFi portal. You can view the list of loan applications once you click on the Staking tab.
