@@ -29,8 +29,7 @@ You can create loan applications by visiting the [TrueFi app](https://app.truefi
 
 ### How do loans get approved? 
 
-In TrueFi v1, there are two criteria that must be met for a loan to get approved. You can learn more about the staking process and how loans get approved [here](https://docs.truefi.io/faq/lending-deposit-assets#how-does-the-current-truefi-lending-pool-lend-or-approve-loan-applications).   
-
+Learn more about the loan approval process [here](loan-approval-process.md). 
 
 ### How do I withdraw once a loan has been approved?
 
