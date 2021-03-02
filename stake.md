@@ -6,7 +6,7 @@ Staking is the process of transferring TRU to the TrueFi protocol’s staking co
 
 ### How do I stake? 
 
-On the Stake page at app.truefi.io/stake, click on “Stake TRU”, input the amount of TRU you wish to stake and complete the transaction on the connected wallet. Users staking for the first time would be required to approve TRU spend limit first. 
+On the [Stake](https://app.truefi.io/stake) page, click on “Stake TRU”, input the amount of TRU you wish to stake and complete the transaction on the connected wallet. Users staking for the first time would be required to approve TRU spend limit first. 
 
 ### What is stkTRU and where can I use it?
 

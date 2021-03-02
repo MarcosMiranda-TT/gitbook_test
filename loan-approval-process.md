@@ -4,11 +4,11 @@
 
 To vote on loan applications, you need stkTRU. To learn more about how to acquire stkTRU please view the section on [Staking](stake.md). Once you have stkTRU you can visit the [Stake](https://app.truefi.io/stake) page and vote on the loan applications listed on the page. 
 
-The stkTRU balance with which you can vote on loan applications is equal to the stkTRU balance held by your wallet when the loan application was created. You will not be able to vote on loan applications with stkTRU balance acquired after a loan application was created.
+The stkTRU balance with which you can vote on loan applications is equal to the stkTRU balance held by your wallet when the loan application was created. You will not be able to vote on loan applications with any stkTRU balance acquired after a loan application was created.
 
-Voters can either vote YES or NO with stkTRU on a loan application. Voting YES means you are predicting that the loan is not likely to default, and voting NO means you are predicting that the loan is likely to default. Voters can vote with the entire stkTRU balance of their wallet, including the stkTRU balance delegated to their wallet address.  
+Stakers can either vote YES or NO with stkTRU on a loan application. Voting YES means you are predicting that the loan is not likely to default, and voting NO means you are predicting that the loan is likely to default. Stakers can vote with the entire stkTRU balance of their wallet, including the stkTRU balance delegated to their wallet address.  
 
-Voting on loan applications does not lock your stkTRU, you can use your stkTRU balance to vote on multiple loan applications. 
+Voting on loan applications does not lock stkTRU, stakers can use their stkTRU balance to vote on multiple loan applications. 
 
 ### What’s the voting period for voting on loan applications? 
 
@@ -22,7 +22,7 @@ stkTRU holders can modify or cancel their votes any number of times before the l
 
 ### How are loan applications approved? 
 
-Loans are approved or rejected based on conditions set in three smart contracts: [TrueFi LP](https://etherscan.io/address/0xa1e72267084192db7387c8cc1328fade470e4149), [TrueRatingAgencyV2](https://etherscan.io/address/0x05461334340568075bE35438b221A3a0D261Fb6b), and [TrueLender](https://etherscan.io/address/0x16d02Dc67EB237C387023339356b25d1D54b0922). 
+Loans are approved or rejected based on conditions set in three smart contracts: [TrueFi](https://etherscan.io/address/0xa1e72267084192db7387c8cc1328fade470e4149)[ TrueUSD \(tfTUSD\)](https://etherscan.io/token/0xa1e72267084192db7387c8cc1328fade470e4149), [TrueRatingAgencyV2](https://etherscan.io/address/0x05461334340568075bE35438b221A3a0D261Fb6b), and [TrueLender](https://etherscan.io/address/0x16d02Dc67EB237C387023339356b25d1D54b0922). 
 
 stkTRU holders can vote on loan applications to signal their willingness to approve or reject the loan by voting YES or NO respectively. 
 
@@ -35,7 +35,7 @@ TrueLender \(proxy\): [0x16d02Dc67EB237C387023339356b25d1D54b0922](https://ether
 1. maxSize and minSize refer to the maximum and minimum loan amount. 
 2. maxTerm and minTerm refer to the maximum and minimum loan term. The values are in seconds. 
 3. maxAPY and minAPY refer to the maximum and minimum APR for the loans. 
-4. participationFactor refers to the minimum number of Yes votes that a loan must receive in order to be approved. For example, if the participation factor is 5000, it means that for a loan of 1,000,000 to be approved it should receive a minimum of 500,000 Yes votes. 
+4. participationFactor refers to the minimum number of Yes votes that a loan must receive in order to be approved. For example, if the participation factor is 5,000, it means that for a loan of 1,000,000 to be approved it should receive a minimum of 500,000 Yes votes. 
 5. riskAversionFactor is a factor in the pool’s expected value calculation that can be modified to reflect the pool’s risk tolerance. If this value is set higher, then loan applications will need to clear a higher hurdle in order to be approved. Only those loan applications where the expected value is greater than zero will be approved \(see the ‘Expected value of loan’ section for more information\)
 
 ### Expected value of a loan
