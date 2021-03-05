@@ -80,7 +80,7 @@ For voting on loan applications stkTRU holders would receive rewards in the form
 
 _**TRU Reward = \(interest \* TRU distribution factor \* multiplier\)**_
 
-#### Interest = interest = \(loan APR \* term \* principal\) 
+#### Interest = \(loan APR \* term in days \* principal\) /365
 
 The loan APR, term and the principal can be obtained from the respective loan token contracts.
 
@@ -89,7 +89,7 @@ The loan APR, term and the principal can be obtained from the respective loan to
 This can be obtained from the RatingAgencyV2Distributor contract.  
 RatingAgencyV2Distributor \(Proxy\): [0x6151570934470214592AA051c28805cF4744BCA7](https://etherscan.io/address/0x6151570934470214592AA051c28805cF4744BCA7)
 
-Visit the [etherscan link](https://etherscan.io/address/0x6151570934470214592AA051c28805cF4744BCA7) to the RatingAgencyV2Distributor \(proxy\) smart contract, click on Contract, then click on Read as Proxy. The parameters are amount and remaining. remaining corresponds to the TRU remaining in the distributor and amount is the total amount of TRU that was allocated for distribution. 
+Visit the [etherscan link](https://etherscan.io/address/0x6151570934470214592AA051c28805cF4744BCA7) to the RatingAgencyV2Distributor \(proxy\) smart contract, click on Contract, then click on Read as Proxy. The parameters are amount and remaining. Remaining corresponds to the TRU remaining in the distributor and amount is the total amount of TRU that was allocated for distribution. 
 
 Multiplier is set in the TrueRatingAgencyv2 contract. The parameter is called rewardsMultiplier. 
 
