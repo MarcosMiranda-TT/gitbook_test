@@ -54,7 +54,7 @@ TRU distribution per day = \(totalAmount/10^8\) / \(duration/\(24\*3600\)\)
 
 ### What is the risk of staking?
 
-TRU stakers are acting as a risk management system for the TrueFi lending pools. In case of defaults in the TrueFi lending pool, a certain percentage of the TRU staked will be liquidated and transferred to the TrueFi lending pool. The maximum percentage of TRU that can be liquidated and transferred to the TrueFi lending pool is the “Maximum Liquidation Rate”. Therefore, in the event a loan provided by a TrueFi lending pool defaults, Stakers can lose upto the maximum liquidation rate of their TRU staked. 
+TRU stakers are acting as a risk management system for the TrueFi lending pools. In case of a default in the TrueFi lending pool, a certain percentage of the TRU staked will be liquidated and transferred to the TrueFi lending pool. The maximum percentage of TRU that can be liquidated and transferred to the TrueFi lending pool in the event of a default is the “Maximum Liquidation Rate”. Therefore, in the event a loan provided by a TrueFi lending pool defaults, Stakers can lose upto the maximum liquidation rate of their TRU staked. 
 
 For example let’s consider a scenario when a loan of principal amount 1,000,000 TUSD defaults, and if the stkTRU contract has 500,000 TRU staked on it. And let’s assume that the maximum liquidation rate is 10%. The maximum amount of TRU that would be liquidated is \(500,000 x 10%\) 50,000 TRU. 
 
