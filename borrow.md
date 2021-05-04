@@ -8,7 +8,10 @@ Whitelisted borrowers can borrow without collateral. Most DeFi lending platforms
 
 Currently, we only allow institutional borrowers to borrow on the TrueFi platform. As we head down the path of progressive decentralization, we will continue to iterate on the borrower onboarding process. The current onboarding process is as follows:
 
-1. Complete **TrueTrading’s** [KYC/AML](https://app.trusttoken.com/choose-account-type) check. When asked for the purpose of your account, please select Other and check the box for Applying as a TrueFi Borrower.
+1. Complete TrustToken’s [KYC/AML](https://app.trusttoken.com/choose-account-type) check
+
+   When asked for the purpose of your account, please select Other and check the box for Applying as a TrueFi Borrower.
+
 2. Once the KYC/AML process is complete, the borrower makes a post on the [TrueFi Forum](https://forum.truefi.io/) providing information about their fund. Here is some [example text](https://docs.google.com/document/d/1bRtFgfRrlUear-f6Rz7_18i-1pbPRkpxr-x6ubOaB24/edit?usp=sharing) with all the details we recommend you include in your own introductory post. 
 
    Since governance is yet to be implemented in its final form, this introductory post is simply intended to provide more information for potential stakers and lenders.

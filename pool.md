@@ -6,7 +6,7 @@
 
 Lenders can lend their stablecoins to the TrueFi lending pools that use predefined strategies to lend to creditworthy borrowers. Any stablecoins that are not being actively loaned out may be used to provide liquidity in audited, stable, and high yield DeFi protocols \(such as Aave or Curve.fi\).
 
-TrueFi lending pools are controlled by TrueTrading, an affiliate company of TrustToken, Inc. The TrueFi lending pools only lend to a whitelist of trusted borrowers, and any excess capital that is not actively loaned out may be deployed in a DeFi protocol.
+TrueFi has a single lending pool created by TrustToken, Inc.. This pool will act as a pilot for future pools, and will only lend to a whitelist of trusted borrowers, and any excess capital that is not actively loaned out may be deployed in a DeFi protocol.
 
 Lenders who lend to the Truefi lending pool would receive TrueFi lending pool tokens which represents their proportion of lent capital in the TrueFi lending pool.
 
@@ -129,7 +129,7 @@ While borrowers are usually willing to pay higher rates for uncollateralized loa
 
 ### Who is responsible for taking legal actions against delinquent borrowers? <a id="who-is-responsible-for-taking-legal-actions-against-delinquent-borrowers"></a>
 
-TrueTrading is currently responsible for pursuing legal recourse if a borrower defaults and may be replaced by another non-profit entity in the future as TrueFi progressively decentralizes.
+Initially, TrustToken Inc. will be responsible for pursuing legal action against a delinquent borrower In the future, this responsibility may be transferred to a non-profit organization.
 
 ### How can tfTUSD token holders farm TRU?  <a id="how-can-lenders-or-tfi-lp-token-holders-farm-tru"></a>
 

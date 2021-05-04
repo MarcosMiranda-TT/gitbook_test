@@ -34,7 +34,7 @@ The FAQs will get into the details of the credit prediction market and the exact
 
 Borrowers get access to capital without any collateral. Currently, TrueFi is launching with a short list of approved borrowers. In the future, new borrowers may be added to the protocol through an approval mechanism led by TRU holders based on standards set by the community. Once the loan applications are approved by the lending pool, all borrowers are required to sign separate loan agreements before receiving the loan principal.
 
-Legal action can be taken against the borrowers if they fail to return the loan principal and interest within the term. At launch, TrustToken, Inc will be responsible for pursuing legal recourse if a borrower defaults and may be replaced by another non-profit entity in the future as TrueFi progressively decentralizes.
+Legal action can be taken against the borrowers if they fail to return the loan principal and interest within the term. TrueTrading is currently responsible for pursuing legal recourse if a borrower defaults and may be replaced by another non-profit entity in the future as TrueFi progressively decentralizes.
 
 ### Liquidity Providers: How do I earn TRU for market making on Uniswap? <a id="liquidity-providers-how-do-i-earn-tru-for-market-making-on-uniswap-balancer"></a>
 
