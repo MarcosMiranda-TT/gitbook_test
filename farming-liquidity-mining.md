@@ -4,7 +4,7 @@
 
 To farm TRU by providing liquidity outside of TrueFi, LP tokens need to be staked in exchange for farm tokens. Holders of LP tokens can claim rewards in TRU as incentive for providing liquidity. These incentives are:
 
-* TrueFi TUSD Pool - This provides additional incentive for the liquidity providers of the Truefi lending pool.
+* TrueFi TUSD Pool and TrueFi USDC Pool - This provides additional incentive for the liquidity providers of the Truefi lending pools.
 * Uniswap ETH/TRU - This will incentivise TRU liquidity versus ETH. ETH holders can farm TRU using ETH with an upside to both.
 * Uniswap TUSD/tfTUSD - This provides much needed liquidity for swapping pool tokens and TUSD. It may be very useful for pool token holders who need TUSD liquidity in/out of the pool. You can earn yield through TrueFi, uniswap fees, and TRU rewards.
 
