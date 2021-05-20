@@ -24,8 +24,6 @@ stkTRU holders can modify or cancel their votes any number of times before the l
 
 Loans are approved or rejected based on conditions set in three smart contracts: [TrueFi](https://etherscan.io/address/0xa1e72267084192db7387c8cc1328fade470e4149)[ TrueUSD \(tfTUSD\)](https://etherscan.io/token/0xa1e72267084192db7387c8cc1328fade470e4149), [TrueRatingAgencyV2](https://etherscan.io/address/0x05461334340568075bE35438b221A3a0D261Fb6b), and [TrueLender](https://etherscan.io/address/0x16d02Dc67EB237C387023339356b25d1D54b0922). 
 
-stkTRU holders can vote on loan applications to signal their willingness to approve or reject the loan by voting YES or NO respectively. 
-
 Only whitelisted borrowers can submit their loan applications to the TrueRatingAgencyV2 contract. Whitelisted addresses will return true when queried against allowedSubmitters in the TrueRatingAgencyV2 contract.  
 
 The following parameters set in the TrueLender contract should be satisfied for a loan to be approved: 
@@ -35,44 +33,11 @@ TrueLender \(proxy\): [0x16d02Dc67EB237C387023339356b25d1D54b0922](https://ether
 1. maxSize and minSize refer to the maximum and minimum loan amount. 
 2. maxTerm and minTerm refer to the maximum and minimum loan term. The values are in seconds. 
 3. maxAPY and minAPY refer to the maximum and minimum APR for the loans. 
-4. participationFactor refers to the minimum number of Yes votes that a loan must receive in order to be approved. For example, if the participation factor is 5,000, it means that for a loan of 1,000,000 to be approved it should receive a minimum of 500,000 Yes votes. 
-5. riskAversionFactor is a factor in the pool’s expected value calculation that can be modified to reflect the pool’s risk tolerance. If this value is set higher, then loan applications will need to clear a higher hurdle in order to be approved. Only those loan applications where the expected value is greater than zero will be approved \(see the ‘Expected value of loan’ section for more information\)
 
-### Expected value of a loan
+stkTRU holders can vote on loan applications to signal their willingness to approve or reject the loan by voting YES or NO respectively. A loan is approved if it satisfies two conditions.
 
-In order for a loan to be approved, it must have a positive expected value as calculated by the TrueFi lending pool. The lending pool uses data provided by the TrueRatingAgencyV2 contract to determine the probability of default for the loan.
-
-Take the example below:
-
-A loan of principal = 1,000,000 TUSD, term = 30 days, and APR = 12% receives a total of 1,200,000 stkTRU votes, of which 1,150,000 are YES votes and 50,000 are NO votes. 
-
-Let’s assess whether the loan would be approved by the protocol’s expected value assessment, where \(Upside potential\) - \(Risk aversion factor\) x \(Downside potential\) must be greater than 0.
-
-#### Downside potential calculations:
-
-* **Probability of default** = \(\# of NO votes\) / \(total votes received\) 
-  * Example: 50,000 / 1,200,000 = 4.17% 
-* **Maximum downside** = loan principal \(worst case assumes no principal is paid back\)
-  * Example : 1,000,000 TUSD
-* **Downside potential** = Probability of default \* Principal
-  * Example: \(4.17%\) \* \(1,000,000 TUSD\) = 41,700 TUSD
-
-#### Upside potential calculations:
-
-* **Probability loan repaid** = 1 - Probability of default
-  * Example: 1 - 4.17% = 95.83%
-* **Upside potential** = \(Probability loan repaid\) \* \(interest amount\)
-  * Example: \(95.83%\) \* \(1,000,000 TUSD x 12% x 30/365\) = 95.83% \* 9,863 TUSD = 9,451.72 TUSD.
-
-#### Expected value calculation:
-
-For this example, we assume the risk aversion factor is set to 1.5.
-
-**Expected value** = \(Upside potential\) - \(Risk aversion factor\) x \(Downside potential\)
-
-Example: \(9,451.72 TUSD\) - \(1.5 \* 41,700 TUSD\) = -52,967 TUSD
-
-Since this loan’s expected value is less than zero, this loan would not be approved. 
+1. Minimum of 15 Million votes 
+2. 80% of the votes should be YES
 
 ### Incentive for voting on loan applications
 
