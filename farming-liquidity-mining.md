@@ -17,6 +17,7 @@ You can start liquidity mining TRU on the [Farm](https://app.truefi.io/farm) pag
 | Farm | Contract |
 | :--- | :--- |
 | tfTUSD \(proxy\) | [0x8FD832757F58F71BAC53196270A4a55c8E1a29D9](https://etherscan.io/address/0x8FD832757F58F71BAC53196270A4a55c8E1a29D9) |
+| tfUSDC \(proxy\) | [0x6b6a4eaba8ba12765df51a859c0fa75894817f5a](https://etherscan.io/address/0x6b6a4eaba8ba12765df51a859c0fa75894817f5a) |
 | Uniswap ETH /TRU \(proxy\) | [0xED45Cf4895C110f464cE857eBE5f270949eC2ff4](https://etherscan.io/address/0xED45Cf4895C110f464cE857eBE5f270949eC2ff4) |
 | Uniswap TUSD /tfTUSD \(proxy\) | [0xf8F14Fbb93fa0cEFe35Acf7e004fD4Ef92d8315a](https://etherscan.io/address/0xf8F14Fbb93fa0cEFe35Acf7e004fD4Ef92d8315a) |
 
@@ -25,6 +26,7 @@ You can start liquidity mining TRU on the [Farm](https://app.truefi.io/farm) pag
 | Farm | Contract |
 | :--- | :--- |
 | tfTUSD \(proxy\) | [0xfB8d918428373f766B352564b70d1DcC1e3b6383](https://etherscan.io/address/0xfB8d918428373f766B352564b70d1DcC1e3b6383) |
+| tfUSDC \(proxy\) | [0x2185b903867212539f6b744d08fa6fd26c4a9310](https://etherscan.io/address/0x2185b903867212539f6b744d08fa6fd26c4a9310) |
 | Uniswap ETH /TRU \(proxy\) | [0x8EFF7d12118Fd599772D6448CDAd11D5fb2568e0](https://etherscan.io/address/0x8EFF7d12118Fd599772D6448CDAd11D5fb2568e0) |
 | Uniswap TUSD /tfTUSD \(proxy\) | [0xCc527F4f8c76dB1EBA217d001cCc6f8bD9e0D86E](https://etherscan.io/address/0xCc527F4f8c76dB1EBA217d001cCc6f8bD9e0D86E) |
 
@@ -34,7 +36,7 @@ TRU distribution per day = \(totalAmount/10^8\) / \(duration/\(24\*3600\)\)
 
 ### What are the risks of participating in TrueFi farms? <a id="what-is-the-distribution-schedule-of-tru-for-liquidity-providers"></a>
 
-**TrueFi TUSD Pool** - There is no additional risk associated with staking your TrueFi LP tokens. You are inherently exposed to borrower default risk as a depositor but there is no additional risk for staking TFI-LP tokens.  
+**TrueFi TUSD Pool or TrueFi USDC Pool** - There is no additional risk associated with staking your TrueFi LP tokens. You are inherently exposed to borrower default risk as a depositor but there is no additional risk for staking TFI-LP tokens.  
   
 **Uniswap ETH / TRU** - Risk of impermanent loss and price exposure to ETH and TRU.  
   
