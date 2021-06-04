@@ -16,23 +16,21 @@ There is no specific time period for stkTRU holders to vote on loan applications
 
 However, there is a minimum time period that must pass before a loan can be funded by the lending pool. This time period is called the minimum voting period which corresponds to the votingPeriod parameter set in the TrueLender smart contract. 
 
-Visit the [etherscan link](https://etherscan.io/address/0x16d02Dc67EB237C387023339356b25d1D54b0922#readProxyContract) to the TrueLender \(proxy\) smart contract, click on Contract, then click on Read as Proxy. You will find the parameter votingPeriod in seconds. 
+Visit the etherscan link to the TrueLender \(proxy\) smart contract, click on Contract, then click on Read as Proxy. You will find the parameter votingPeriod in seconds. 
 
 stkTRU holders can modify or cancel their votes any number of times before the loan has been funded by the lending pool or cancelled by the borrower.
 
 ### How are loan applications approved? 
 
-Loans are approved or rejected based on conditions set in three smart contracts: [TrueFi](https://etherscan.io/address/0xa1e72267084192db7387c8cc1328fade470e4149)[ TrueUSD \(tfTUSD\)](https://etherscan.io/token/0xa1e72267084192db7387c8cc1328fade470e4149), [TrueRatingAgencyV2](https://etherscan.io/address/0x05461334340568075bE35438b221A3a0D261Fb6b), and [TrueLender](https://etherscan.io/address/0x16d02Dc67EB237C387023339356b25d1D54b0922). 
+Loans are approved or rejected based on conditions set in three smart contracts: TrueFi lending pool contract, TrueRatingAgency, and TrueLender. 
 
-Only whitelisted borrowers can submit their loan applications to the TrueRatingAgencyV2 contract. Whitelisted addresses will return true when queried against allowedSubmitters in the TrueRatingAgencyV2 contract.  
+Only whitelisted borrowers can submit their loan applications to the TrueRatingAgency contract. Whitelisted addresses will return true when queried against allowedSubmitters in the TrueRatingAgency contract.  
 
 The following parameters set in the TrueLender contract should be satisfied for a loan to be approved: 
 
-TrueLender \(proxy\): [0x16d02Dc67EB237C387023339356b25d1D54b0922](https://etherscan.io/address/0x16d02Dc67EB237C387023339356b25d1D54b0922)
+TrueLender \(proxy\): [0xa606dd423dF7dFb65Efe14ab66f5fDEBf62FF583](https://etherscan.io/address/0xa606dd423dF7dFb65Efe14ab66f5fDEBf62FF583)
 
-1. maxSize and minSize refer to the maximum and minimum loan amount. 
-2. maxTerm and minTerm refer to the maximum and minimum loan term. The values are in seconds. 
-3. maxAPY and minAPY refer to the maximum and minimum APR for the loans. 
+TrueRatingAgency \(proxy\): [0x05461334340568075bE35438b221A3a0D261Fb6b](https://etherscan.io/address/0x05461334340568075bE35438b221A3a0D261Fb6b)
 
 stkTRU holders can vote on loan applications to signal their willingness to approve or reject the loan by voting YES or NO respectively. A loan is approved if it satisfies two conditions.
 
@@ -54,9 +52,7 @@ The loan APR, term and the principal can be obtained from the respective loan to
 This can be obtained from the RatingAgencyV2Distributor contract.  
 RatingAgencyV2Distributor \(Proxy\): [0x6151570934470214592AA051c28805cF4744BCA7](https://etherscan.io/address/0x6151570934470214592AA051c28805cF4744BCA7)
 
-Visit the [etherscan link](https://etherscan.io/address/0x6151570934470214592AA051c28805cF4744BCA7) to the RatingAgencyV2Distributor \(proxy\) smart contract, click on Contract, then click on Read as Proxy. The parameters are amount and remaining. Remaining corresponds to the TRU remaining in the distributor and amount is the total amount of TRU that was allocated for distribution. 
+Visit the etherscan link to the RatingAgencyV2Distributor \(proxy\) smart contract, click on Contract, then click on Read as Proxy. The parameters are amount and remaining. Remaining corresponds to the TRU remaining in the distributor and amount is the total amount of TRU that was allocated for distribution. 
 
-Multiplier is set in the TrueRatingAgencyv2 contract. The parameter is called rewardsMultiplier. 
-
-TrueRatingAgencyV2 \(Proxy\): [0x05461334340568075bE35438b221A3a0D261Fb6b](https://etherscan.io/address/0x05461334340568075bE35438b221A3a0D261Fb6b)
+Multiplier is set in the TrueRatingAgency contract. The parameter is called rewardsMultiplier. 
 
