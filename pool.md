@@ -6,7 +6,7 @@
 
 Lenders can lend their stablecoins to the TrueFi lending pools that use predefined strategies to lend to creditworthy borrowers. Any stablecoins that are not being actively loaned out may be used to provide liquidity in audited, stable, and high yield DeFi protocols \(such as Aave or Curve.fi\).
 
-TrueFi lending pools are controlled by TrueTrading, an affiliate company of TrustToken, Inc. The TrueFi lending pools only lend to a whitelist of trusted borrowers, and any excess capital that is not actively loaned out may be deployed in a DeFi protocol.
+TrueFi has a single lending pool created by TrustToken, Inc.. This pool will act as a pilot for future pools, and will only lend to a whitelist of trusted borrowers, and any excess capital that is not actively loaned out may be deployed in a DeFi protocol.
 
 Lenders who lend to the Truefi lending pool would receive TrueFi lending pool tokens which represents their proportion of lent capital in the TrueFi lending pool.
 
@@ -20,7 +20,7 @@ Additionally, uncollateralized lending inherently has a higher risk profile and 
 
 ### What are Lending Pool tokens?  <a id="what-are-lending-pool-tfi-lp-tokens"></a>
 
-Lending Pool tokens are tradable ERC-20 tokens that represent a lender’s proportional representation in the pool. In the beginning, when no loans have been disbursed by the TrueFi lending pool, for every stablecoin deposited, depositors will get one TrueFi Lending Pool Token \(tfTUSD or tfUSDC\) for every stablecoin lent to the pool. As the pool starts earning yields and lending to borrowers, the value of the pool tokens may increase or decrease depending on the yields earned by the pool. Anyone who comes in later to lend to the pool will be getting a new value for the pool. The value of the pool would be the present value of all its tokens \(stablecoins, altcoins and loan tokens\).
+Lending Pool tokens are tradable ERC-20 tokens that represent a lender’s proportional representation in the pool. In the beginning, when no loans have been disbursed by the TrueFi lending pool, for every TUSD deposited, depositors will get one TrueFi TUSD Pool Token \(tfTUSD\) for every TUSD lent to the pool. As the pool starts earning yields and lending to borrowers, the value of the pool tokens may increase or decrease depending on the yields earned by the pool. Anyone who comes in later to lend to the pool will be getting a new value for the pool. The value of the pool would be the present value of all its tokens \(stablecoins, altcoins and loan tokens\).
 
 ### What are loan tokens?  <a id="what-are-loan-tokens"></a>
 
@@ -36,7 +36,7 @@ Loan tokens are minted at a discounted rate, meaning for every unit of principal
 
 ### What is the value of a loan token at any point of time? <a id="what-is-the-value-of-a-loan-token-at-any-point-of-time"></a>
 
-The theoretical present value of a loan token is calculated by assuming that the loan would be repaid in full by the end of the loan term. Understandably, the loan token value at the end of the loan term is equal to a unit of the underlying stablecoin. This valuation of the loan token is used by the Lending Pool smart contract in calculating the value of lending pool tokens:
+The theoretical present value of a loan token is calculated by assuming that the loan would be repaid in full by the end of the loan term. Understandably, the loan token value at the end of the loan term is equal to a unit of the underlying stablecoin. This valuation of the loan token is used by the Lending Pool smart contract in calculating the value of tfTUSD tokens:
 
 `Value of loan tokens after time t (time since minted) = principal + (t / term ) x interest`
 
@@ -50,7 +50,7 @@ The theoretical present value of a loan token is calculated by assuming that the
 
 ### How is the theoretical price of the TrueFi lending pool token calculated? <a id="how-is-the-theoretical-price-of-the-truefi-lending-pool-tfi-lp-token-calculated"></a>
 
-The TrueFi lending pool’s theoretical value is calculated by adding the present value of all loan tokens, stablecoins and altcoins \(like CRV\) present in the pool. The value of a TrueFi lending pool token like tfTUSD or tfUSDC would be the TrueFi TUSD Pool’s theoretical value divided by the number of tfTUSD or tfUSDC tokens. Initially the pool would issue a unit of lending pool token for every unit of stablecoin lent to the pool.
+The TrueFi lending pool’s theoretical value is calculated by adding the present value of all loan tokens, stablecoins and altcoins \(like CRV\) present in the pool. The value of a TrueFi lending pool token like tfTUSD would be the TrueFi TUSD Pool’s theoretical value divided by the number of tfTUSD tokens. Initially the pool would issue a unit of tfTUSD for every unit of stablecoin lent to the pool.
 
 **Example**: Lender\_1 lends 2 Mn TUSD to the pool and receives 2 Mn tfTUSD tokens on day 1. The value of the pool at the end of day 1 is 2 Mn TUSD.
 
@@ -66,19 +66,19 @@ The total value of the pool would be equal to \(1,004,931.50 + 1,000,000\) 2,004
 
 Just before the end of day 40 the value of loan tokens would be almost equal to 1,009,863.01 TUSD and therefore the value of the pool would be 2,009,863.01. Price of tfTUSD tokens would almost be equal to \(2,009,863.01 TUSD / 2,000,000\) 1.004931 TUSD.
 
-### Why is there a difference between the calculated lending pool token price and its price on Uniswap? <a id="why-is-there-a-difference-between-the-calculated-tfi-lp-price-and-its-price-on-uniswap"></a>
+### Why is there a difference between the calculated tfTUSD price and its price on Uniswap? <a id="why-is-there-a-difference-between-the-calculated-tfi-lp-price-and-its-price-on-uniswap"></a>
 
-The lending pool token price is calculated based on a lot of assumptions, one of the key assumptions being that the loans will be repaid successfully within the term. Other market participants may have a different sentiment regarding the nature of pool tokens and may or may not agree with the price calculated by the TrueFi lending pool. There are several market factors that may govern the price of lending pool tokens and the TrueFi platform does not have any control over them.
+The tfTUSD price is calculated based on a lot of assumptions, one of the key assumptions being that the loans will be repaid successfully within the term. Other market participants may have a different sentiment regarding the nature of pool tokens and may or may not agree with the price calculated by the TrueFi lending pool. There are several market factors that may govern the price of tfTUSD tokens and the TrueFi platform does not have any control over them.
 
-However, you can always exit the pool by withdrawing your share of the loan tokens that represent still outstanding loans, hold on to the loan tokens and redeem them for the stablecoin upon completion of the loan terms, respectively. 
+However, you can always exit the pool by withdrawing your share of the loan tokens that represent still outstanding loans, hold on to the loan tokens and redeem them for TUSD upon completion of the loan terms, respectively. 
 
-### How many lending pool tokens will I get for lending to the TrueFi lending pool? <a id="how-many-tfi-lp-tokens-will-i-get-for-lending-to-the-truefi-lending-pool"></a>
+### How many tfTUSD tokens will I get for lending to the TrueFi TUSD Pool? <a id="how-many-tfi-lp-tokens-will-i-get-for-lending-to-the-truefi-lending-pool"></a>
 
-For lending a certain amount of stablecoins to the TrueFi lending pool, the number of lending pool tokens you get will have the same monetary value as the value of stablecoins you have lent. The value of lending pool tokens is calculated in the same way as described above.
+For lending a certain amount of stablecoins to the TrueFi TUSD Pool, the number of tfTUSD tokens you get will have the same monetary value as the value of stablecoins you have lent. The value of tfTUSD tokens is calculated in the same way as described above.
 
-Number of lending pool tokens you get
+Number of tfTUSD tokens you get
 
-= Deposit amount in stablecoin x \(number of outstanding pool tokens / current estimated value of pool\)
+= Deposit amount in TUSD x \(number of outstanding pool tokens / current estimated value of pool\)
 
 **Example**: Continuing with the previous example, Lender\_1 lends 2 Mn TUSD to the pool and receives 1 Mn tfTUSD tokens on day 1. At this point and until any loans are withdrawn from the pool, for every unit of TUSD a lender lends to the pool they would get a unit of tfTUSD token.
 
@@ -98,17 +98,17 @@ No, there are no fees for lending to the lending pools as a lender.
 
 ### How can I exit the lending pools? <a id="how-can-i-exit-the-lending-pools"></a>
 
-You can exchange your lending pool tokens for a proportionate share of all tokens present in the pool. You can view the tokens held by the pool and your share of the token holdings in the Pool page.
+You can exchange your tfTUSD tokens for a proportionate share of all tokens present in the pool. You can view the tokens held by the pool and your share of the token holdings in the Pool page.
 
-While exercising this option, you must keep in mind that the loan tokens you withdraw from the pool are non-tradable and non-transferable and can only be held by you in your wallet. You can redeem the loan tokens for an equivalent amount of stablecoin after the completion of the respective loan terms.
+While exercising this option, you must keep in mind that the loan tokens you withdraw from the pool are non-tradable and non-transferable and can only be held by you in your wallet. You can redeem the loan tokens for an equivalent amount of TUSD after the completion of the respective loan terms.
 
-You can also exit the pool by selling your lending pool tokens to the TrueFi lending pools for the stablecoin if there is enough liquid asset in the pool to support the transaction. This feature is also called liquid exit. 
+You can also exit the pool by selling your tfTUSD tokens to the TrueFi TUSD Pool for TUSD if there is enough TUSD in the pool to support the transaction. This is also called liquid exit. 
 
 ### **What is Liquid Exit?**
 
-**‌**Liquid exit addresses a key community request which is the ability to exit the TrueFi Lending Pool directly into the underlying stablecoin. With Liquid Exit, the Lending Pool will act as a liquidity provider and accept lending pool tokens in exchange for stablecoin. The pool will allow lending pool token holders to redeem their tokens for the stablecoin for an exit fee.
+**‌**Liquid exit addresses a key community request which is the ability to exit the TrueFi Lending Pool directly into TUSD. With Liquid Exit, the Lending Pool will act as a liquidity provider and accept tfTUSD tokens in exchange for TUSD. The pool will allow tfTUSD token holders to redeem their tokens for TUSD for an exit fee.
 
-The exit fee is inversely proportional to the amount of available stablecoin in the pool. For example, when there is a large amount of liquid assets in the pool, the fee is low. When there is a small amount of liquid asset in the pool, the fee is high. This fee is earned by the pool for the existing lending pool token holders.
+The exit fee is inversely proportional to the amount of available TUSD in the pool. For example, when there is a large amount of TUSD in the pool, the fee is low. When there is a small amount of TUSD in the pool, the fee is high. This fee is earned by the pool for the existing tfTUSD token holders.
 
 The exit fee charged to you for an exit would be made available to you in the UI. If you feel that the fee charged is too high then you can wait till the pool is more liquid and try again later. ****
 
@@ -116,28 +116,26 @@ The exit fee charged to you for an exit would be made available to you in the UI
 
 **‌**There are two situations in which the pool will not let you withdraw via Liquid Exit:
 
-1\) If there is no liquid asset in the lending pool and no liquid exit is deployed in Curve.
+1\) If there is no TUSD in the lending pool and no TUSD deployed in Curve.
 
 2\) If the pool needs to liquidate its position in Curve and will incur a loss of more than 10 basis points.
-
-Click [here](https://docs.google.com/spreadsheets/d/1ZXGRxunIwe0eYPu7j4QjCwXxe63tNKtpCvRiJnqK0jo/edit?usp=sharing) to view the relationship between Pool utilization and exit fees.
 
 ### What are the risks involved in lending to the TrueFi lending pool? <a id="what-are-the-risks-involved-in-lending-to-the-truefi-lending-pool"></a>
 
 While borrowers are usually willing to pay higher rates for uncollateralized loans, these higher yields do not come without risks. Compared with collateralized lending, uncollateralized lending has two major risks:
 
 * Potentially increased risk of loss: Protocols that require collateral are protected by that collateral in case of default. While this allows such platforms to be less selective in approving loans, uncollateralized loans come with a much higher standard of trust that must be met by a borrower. In case of default on an uncollateralized loan, a delinquent borrower will have been assessed for creditworthiness before the loan was made and will face both reputational damage and legal action.
-* Potentially lower liquidity: While instant withdrawals are becoming a norm for new protocols, uncollateralized lending may not offer the same flexibility. Most borrowers for uncollateralized loans are interested in fixed-rate, fixed-term loans for predictable repayment. This means lenders who fund such loans need to be comfortable locking up their assets for the duration of the loan. TrueFi offers an alternative: the ability to withdraw their proportion of the pool tokens which would consist of stablecoins and loan tokens that you hold to maturity. You can redeem the loan tokens for the stablecoin at the end of loan terms.
+* Potentially lower liquidity: While instant withdrawals are becoming a norm for new protocols, uncollateralized lending may not offer the same flexibility. Most borrowers for uncollateralized loans are interested in fixed-rate, fixed-term loans for predictable repayment. This means lenders who fund such loans need to be comfortable locking up their assets for the duration of the loan. TrueFi offers an alternative: the ability to withdraw their proportion of the pool tokens which would consist of stablecoins like TUSD and loan tokens that you hold to maturity. You can redeem the loan tokens for TUSD at the end of loan terms.
 
 ### Who is responsible for taking legal actions against delinquent borrowers? <a id="who-is-responsible-for-taking-legal-actions-against-delinquent-borrowers"></a>
 
-TrueTrading is currently responsible for pursuing legal recourse if a borrower defaults and may be replaced by another non-profit entity in the future as TrueFi progressively decentralizes.
+Initially, TrustToken Inc. will be responsible for pursuing legal action against a delinquent borrower In the future, this responsibility may be transferred to a non-profit organization.
 
-### How can lending pool token holders farm TRU?  <a id="how-can-lenders-or-tfi-lp-token-holders-farm-tru"></a>
+### How can tfTUSD token holders farm TRU?  <a id="how-can-lenders-or-tfi-lp-token-holders-farm-tru"></a>
 
-Lending pool token holders can farm TRU by staking their lending pool tokens \(tfTUSD and tfUSDC\) on the [Farm](https://app.truefi.io/farm) page. 
+tfTUSD token holders can farm TRU by staking their tfTUSD tokens on the [Farm](https://app.truefi.io/farm) page. 
 
-### How can individual loan tokens be exchanged back for stablecoin post maturity of the loans?  <a id="how-can-individual-loan-tokens-be-exchanged-back-for-tusd-post-maturity-of-the-loans"></a>
+### How can individual loan tokens be exchanged back for TUSD post maturity of the loans?  <a id="how-can-individual-loan-tokens-be-exchanged-back-for-tusd-post-maturity-of-the-loans"></a>
 
-You can redeem individual loan tokens for the stablecoin on the TrueFi app. Please visit the respective page for the loan token and you should be able to see a Redeem button if you are connected with the wallet which holds the loan tokens. 
+You can redeem individual loan tokens for TUSD on the TrueFi app. Please visit the page for the loan token and you should be able to see a Redeem button if you are connected with the wallet which holds the loan tokens. 
 
