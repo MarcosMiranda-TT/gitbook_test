@@ -19,7 +19,7 @@ Currently, we only allow institutional borrowers to borrow on the TrueFi platfor
 
 Steps 1, 2 and 3 can happen in parallel. 
 
-## **What is the credit review and how is it conducted?**
+### **What is the credit review and how is it conducted?**
 
 TrustToken conducts an analysis of the borrower to determine credit quality and ensure adequate credit support exists for the benefit of the protocol’s lenders. As TrueFi is an unsecured lending protocol, it is critically important to understand the financial capabilities of our borrowers both in a normal and stressed environment due to systemic fallout and/or exogenous shock. 
 
