@@ -2,7 +2,7 @@
 
 ### Voting on loan applications
 
-To vote on loan applications, you need stkTRU. To learn more about how to acquire stkTRU please view the section on [Staking](stake.md). Once you have stkTRU you can visit the [Stake](https://app.truefi.io/stake) page and vote on the loan applications listed on the page. 
+To vote on loan applications, you need stkTRU. To learn more about how to acquire stkTRU please view the section on [Staking](stake/). Once you have stkTRU you can visit the [Stake](https://app.truefi.io/stake) page and vote on the loan applications listed on the page. 
 
 The stkTRU balance with which you can vote on loan applications is equal to the stkTRU balance held by your wallet when the loan application was created. You will not be able to vote on loan applications with any stkTRU balance acquired after a loan application was created.
 
