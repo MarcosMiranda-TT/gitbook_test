@@ -8,7 +8,7 @@ Whitelisted borrowers can borrow without collateral. Most DeFi lending platforms
 
 **Currently, we only allow institutional borrowers with at least $10 million in net unencumbered assets to borrow on the TrueFi platform.** As we head down the path of progressive decentralization, we will continue to iterate on the borrower onboarding process. The current onboarding process is as follows:
 
-1. Complete [New Borrower Inquiry](https://truefi.io/borrow)form and let us know that you have interest in becoming a borrow on TrueFi.
+1. Complete [New Borrower Inquiry](https://truefi.io/borrow) form and let us know that you have interest in becoming a borrow on TrueFi.
 2. Complete [KYC/AML check](https://app.trusttoken.com/choose-account-type). When asked for the purpose of your account, please select Other and check the box for Applying as a TrueFi Borrower.
 3. Sign a Master Loan Agreement. Ryan will be able to send this to you once you provide him your email address.
 4. Complete a credit review.  Ryan will be able to send this to you once you provide him your email address.
